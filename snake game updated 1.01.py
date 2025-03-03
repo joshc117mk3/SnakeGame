@@ -141,10 +141,10 @@ def move():
 
 # Keybindings
 wn.listen()
-wn.onkeypress(go_up, "w" or "Up")
-wn.onkeypress(go_down, "s" or "Down")
-wn.onkeypress(go_left, "a" or "Left")
-wn.onkeypress(go_right, "d" or "Right")
+wn.onkeypress(go_up, "w" or "K_Up")
+wn.onkeypress(go_down, "s" or "K_Down")
+wn.onkeypress(go_left, "a" or "K_Left")
+wn.onkeypress(go_right, "d" or "K_Right")
 
 # Main game function
 def start_game():
